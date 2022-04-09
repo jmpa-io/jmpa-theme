@@ -25,7 +25,7 @@
 
   <link rel="stylesheet" href="{{ "/css/main.css" | absURL}}" />
   {{ range .Site.Params.custom_css -}}
-  <link rel="stylesheet" href="{{ . | absURL }}">
+  <link rel="stylesheet" href="{{ . | absURL }}" />
   {{- end }}
 
   <!-- Katex support -->
